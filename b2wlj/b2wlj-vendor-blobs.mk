@@ -305,7 +305,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/b2wlj/proprietary/bin/irsc_util:/system/bin/irsc_util \
         vendor/htc/b2wlj/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \

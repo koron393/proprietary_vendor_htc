@@ -54,8 +54,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
-        vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
-        vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
         vendor/htc/b2wlj/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
@@ -225,7 +223,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
-        vendor/htc/b2wlj/proprietary/etc/agps_rm:/system/etc/agps_rm \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
@@ -247,7 +244,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libOmxEvrcEnc.so:/system/lib/libOmxEvrcEnc.so \
         vendor/htc/b2wlj/proprietary/lib/libOmxQcelp13Enc.so:/system/lib/libOmxQcelp13Enc.so \
         vendor/htc/b2wlj/proprietary/lib/libOmxVdec.so:/system/lib/libOmxVdec.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxVdecHevc.so:/system/lib/libOmxVdecHevc.so \
         vendor/htc/b2wlj/proprietary/lib/libOmxVenc.so:/system/lib/libOmxVenc.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
@@ -287,11 +283,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
         vendor/htc/b2wlj/proprietary/bin/hcheck:/system/bin/hcheck \
-        vendor/htc/b2wlj/proprietary/etc/firmware/cmnlib.b00:/system/etc/firmware/cmnlib.b00 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/cmnlib.b01:/system/etc/firmware/cmnlib.b01 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/cmnlib.b02:/system/etc/firmware/cmnlib.b02 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/cmnlib.b03:/system/etc/firmware/cmnlib.b03 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/cmnlib.mdt:/system/etc/firmware/cmnlib.mdt \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
@@ -302,17 +293,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
-        vendor/htc/b2wlj/proprietary/lib/libbt-aptx-4.0.3.so:/system/lib/libbt-aptx-4.0.3.so \
-        vendor/htc/b2wlj/proprietary/lib/libbt-hci.so:/system/lib/libbt-hci.so \
-        vendor/htc/b2wlj/proprietary/lib/libbt-utils.so:/system/lib/libbt-utils.so \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/b2wlj/proprietary/app/CIRModule.apk:/system/app/CIRModule.apk \
-        vendor/htc/b2wlj/proprietary/app/EasyAccessService.apk:/system/app/EasyAccessService.apk \
         vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
-        vendor/htc/b2wlj/proprietary/lib/libprojector.so:/system/lib/libprojector.so \
         vendor/htc/b2wlj/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
         vendor/htc/b2wlj/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
-        vendor/htc/b2wlj/proprietary/lib/libcnefeatureconfig.so:/system/lib/libcnefeatureconfig.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
@@ -323,12 +308,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/b2wlj/proprietary/bin/irsc_util:/system/bin/irsc_util \
-        vendor/htc/b2wlj/proprietary/bin/readDapCert:/system/bin/readDapCert \
         vendor/htc/b2wlj/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
-        vendor/htc/b2wlj/proprietary/bin/cand:/system/bin/cand \
         vendor/htc/b2wlj/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/b2wlj/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
-        vendor/htc/b2wlj/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
         vendor/htc/b2wlj/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/b2wlj/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/b2wlj/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
@@ -345,13 +327,3 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/mirlink.b00:/system/etc/firmware/mirlink.b00 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/mirlink.b01:/system/etc/firmware/mirlink.b01 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/mirlink.b02:/system/etc/firmware/mirlink.b02 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/mirlink.b03:/system/etc/firmware/mirlink.b03 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/mirlink.mdt:/system/etc/firmware/mirlink.mdt \
-        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b00:/system/etc/firmware/dxhdcp2.b00 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b01:/system/etc/firmware/dxhdcp2.b01 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b02:/system/etc/firmware/dxhdcp2.b02 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b03:/system/etc/firmware/dxhdcp2.b03 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.mdt:/system/etc/firmware/dxhdcp2.mdt \

@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/b2wlj/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/b2wlj/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
+        vendor/htc/b2wlj/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
@@ -234,6 +235,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b02:/system/etc/firmware/venus.b02 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b00:/system/etc/firmware/venus.b00 \
+        vendor/htc/b2wlj/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
+        vendor/htc/b2wlj/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
@@ -253,6 +256,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/b2wlj/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/b2wlj/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+        vendor/htc/b2wlj/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdsnetutils.so:/system/vendor/lib/libdsnetutils.so \
@@ -283,14 +287,21 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
         vendor/htc/b2wlj/proprietary/bin/hcheck:/system/bin/hcheck \
-        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
         vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
@@ -312,10 +323,20 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/b2wlj/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/b2wlj/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
+        vendor/htc/b2wlj/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
+        vendor/htc/b2wlj/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
+        vendor/htc/b2wlj/proprietary/etc/gps.conf:/system/etc/gps.conf \
+        vendor/htc/b2wlj/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/b2wlj/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
         vendor/htc/b2wlj/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
+        vendor/htc/b2wlj/proprietary/etc/RT5501:/system/etc/RT5501 \
+        vendor/htc/b2wlj/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
+        vendor/htc/b2wlj/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
+        vendor/htc/b2wlj/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
         vendor/htc/b2wlj/proprietary/bin/hvdcp:/system/bin/hvdcp \
+        vendor/htc/b2wlj/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
+        vendor/htc/b2wlj/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
         vendor/htc/b2wlj/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9887MFG.patch:/system/etc/tfa/tfa9887MFG.patch \

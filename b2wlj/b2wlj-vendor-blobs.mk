@@ -203,9 +203,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
         vendor/htc/b2wlj/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
         vendor/htc/b2wlj/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-        vendor/htc/b2wlj/proprietary/lib/libc2dcolorconvert.so:/system/lib/libc2dcolorconvert.so \
-        vendor/htc/b2wlj/proprietary/lib/libEGL.so:/system/lib/libEGL.so \
-        vendor/htc/b2wlj/proprietary/lib/libRS.so:/system/lib/libRS.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -227,6 +224,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
+        vendor/htc/b2wlj/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
+        vendor/htc/b2wlj/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
+        vendor/htc/b2wlj/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/htc/b2wlj/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
@@ -241,13 +241,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/b2wlj/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxAacEnc.so:/system/lib/libOmxAacEnc.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxAmrEnc.so:/system/lib/libOmxAmrEnc.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxCore.so:/system/lib/libOmxCore.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxEvrcEnc.so:/system/lib/libOmxEvrcEnc.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxQcelp13Enc.so:/system/lib/libOmxQcelp13Enc.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxVdec.so:/system/lib/libOmxVdec.so \
-        vendor/htc/b2wlj/proprietary/lib/libOmxVenc.so:/system/lib/libOmxVenc.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
@@ -308,8 +301,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/app/CIRModule.apk:/system/app/CIRModule.apk \
         vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/b2wlj/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
+        vendor/htc/b2wlj/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/b2wlj/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
+        vendor/htc/b2wlj/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
+        vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
         vendor/htc/b2wlj/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \

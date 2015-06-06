@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libtuning_awb_s5k5e.so:/system/lib/libtuning_awb_s5k5e.so \
         vendor/htc/b2wlj/proprietary/lib/libtuning_awb_s5k5e_fov65.so:/system/lib/libtuning_awb_s5k5e_fov65.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_cpp_module.so:/system/vendor/lib/libmmcamera2_cpp_module.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_iface_modules.so:/system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -174,7 +173,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libcneutils.so:/system/vendor/lib/libcneutils.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
@@ -188,6 +186,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/b2wlj/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/b2wlj/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
@@ -241,10 +240,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/b2wlj/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
         vendor/htc/b2wlj/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/b2wlj/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/b2wlj/proprietary/bin/qmuxd:/system/bin/qmuxd \
@@ -274,6 +269,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/b2wlj/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/b2wlj/proprietary/vendor/lib/libtime_genoff.so:/system/vendor/lib/libtime_genoff.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
@@ -293,6 +289,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
@@ -311,6 +308,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/b2wlj/proprietary/bin/irsc_util:/system/bin/irsc_util \

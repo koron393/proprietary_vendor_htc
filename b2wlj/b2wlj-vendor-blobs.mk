@@ -242,6 +242,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/b2wlj/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/b2wlj/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/b2wlj/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/b2wlj/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/b2wlj/proprietary/bin/thermal-engine:/system/bin/thermal-engine \

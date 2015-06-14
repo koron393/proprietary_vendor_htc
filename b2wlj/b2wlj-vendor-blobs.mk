@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/b2wlj/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
         vendor/htc/b2wlj/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
-        vendor/htc/b2wlj/proprietary/lib/hw/camera.msm8974.so:/system/lib/hw/camera.msm8974.so \
+        vendor/htc/b2wlj/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/b2wlj/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
         vendor/htc/b2wlj/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
         vendor/htc/b2wlj/proprietary/lib/libtuning_aec_imx214_hdr.so:/system/lib/libtuning_aec_imx214_hdr.so \

@@ -104,7 +104,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/b2wlj/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
+        vendor/htc/b2wlj/proprietary/lib/libc2dcolorconvertgpu.so:/system/lib/libc2dcolorconvertgpu.so \
+        vendor/htc/b2wlj/proprietary/lib/libFaceRetrieve.so:/system/lib/libFaceRetrieve.so \
         vendor/htc/b2wlj/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
+        vendor/htc/b2wlj/proprietary/lib/libHtcVteEngine.so:/system/lib/libHtcVteEngine.so \
         vendor/htc/b2wlj/proprietary/lib/libcamera_aec.so:/system/lib/libcamera_aec.so \
         vendor/htc/b2wlj/proprietary/lib/libcamera_af.so:/system/lib/libcamera_af.so \
         vendor/htc/b2wlj/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
@@ -305,8 +308,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
+        vendor/htc/b2wlj/proprietary/lib/libhtcsecure.so:/system/lib/libhtcsecure.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
-        vendor/htc/b2wlj/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \

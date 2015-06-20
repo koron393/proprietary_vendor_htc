@@ -308,6 +308,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
+        vendor/htc/b2wlj/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcsecure.so:/system/lib/libhtcsecure.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \

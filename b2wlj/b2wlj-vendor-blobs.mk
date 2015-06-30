@@ -290,6 +290,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b02:/system/vendor/firmware/wcnss.b02 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b04:/system/vendor/firmware/wcnss.b04 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b06:/system/vendor/firmware/wcnss.b06 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b07:/system/vendor/firmware/wcnss.b07 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
         vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \

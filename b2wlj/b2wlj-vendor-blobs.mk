@@ -318,7 +318,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
         vendor/htc/b2wlj/proprietary/etc/cir.img:/system/etc/cir.img \
-        vendor/htc/b2wlj/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
         vendor/htc/b2wlj/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \

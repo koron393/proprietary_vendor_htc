@@ -52,7 +52,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9895MFG.patch:/system/etc/tfa/tfa9895MFG.patch \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
         vendor/htc/b2wlj/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
+        vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice.drc \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice.eq \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/b2wlj/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \

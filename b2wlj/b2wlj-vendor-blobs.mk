@@ -306,6 +306,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/b2wlj/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
+        vendor/htc/b2wlj/proprietary/etc/gps.conf:/system/etc/gps.conf \
         vendor/htc/b2wlj/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/b2wlj/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \

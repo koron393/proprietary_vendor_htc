@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/b2wlj/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/b2wlj/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmdecrypt.so:/system/vendor/lib/libdrmdecrypt.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
@@ -87,7 +88,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/htc/b2wlj/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/b2wlj/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-        vendor/htc/b2wlj/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/b2wlj/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/b2wlj/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
         vendor/htc/b2wlj/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
@@ -162,7 +161,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/b2wlj/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/b2wlj/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
@@ -272,13 +270,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/b2wlj/proprietary/app/CIRModule.apk:/system/app/CIRModule.apk \
@@ -295,7 +291,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/b2wlj/proprietary/bin/irsc_util:/system/bin/irsc_util \
@@ -303,6 +298,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/b2wlj/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/b2wlj/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/htc/b2wlj/proprietary/lib/libdrmdiag.so:/system/lib/libdrmdiag.so \
+        vendor/htc/b2wlj/proprietary/lib/libdrmfs.so:/system/lib/libdrmfs.so \
+        vendor/htc/b2wlj/proprietary/lib/libdrmtime.so:/system/lib/libdrmtime.so \
+        vendor/htc/b2wlj/proprietary/lib/liboemcrypto.so:/system/lib/liboemcrypto.so \
+        vendor/htc/b2wlj/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+        vendor/htc/b2wlj/proprietary/lib/librpmb.so:/system/lib/librpmb.so \
+        vendor/htc/b2wlj/proprietary/lib/libssd.so:/system/lib/libssd.so \
         vendor/htc/b2wlj/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/b2wlj/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \

@@ -208,10 +208,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/b2wlj/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/b2wlj/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/b2wlj/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/b2wlj/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-        vendor/htc/b2wlj/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdsnetutils.so:/system/vendor/lib/libdsnetutils.so \

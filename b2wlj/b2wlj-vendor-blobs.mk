@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:/system/vendor/lib/libchromatix_imx214_hfr_60fps.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_preview.so:/system/vendor/lib/libchromatix_imx214_preview.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_zoe.so:/system/vendor/lib/libchromatix_imx214_zoe.so \
-        vendor/htc/b2wlj/proprietary/lib/libalDE_SDE_TWO.so:/system/lib/libalDE_SDE_TWO.so \
         vendor/htc/b2wlj/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
@@ -251,7 +250,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmdiag.so:/system/vendor/lib/libdrmdiag.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \

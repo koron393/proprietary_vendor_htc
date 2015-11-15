@@ -179,7 +179,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
@@ -187,12 +187,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/htc/m8-common/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
+        vendor/htc/b2wlj/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/b2wlj/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
@@ -228,7 +228,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi.so:/system/vendor/lib/libqmi.so \
         vendor/htc/b2wlj/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/b2wlj/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qc-qmi-1.so:/system/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/b2wlj/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
@@ -251,14 +251,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
-        vendor/htc/m8-common/proprietary/vendor/lib/libdrmdiag.so:/system/vendor/lib/libdrmdiag.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
-        vendor/htc/m8-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmdiag.so:/system/vendor/lib/libdrmdiag.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
+        vendor/htc/b2wlj/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b02:/system/vendor/firmware/wcnss.b02 \

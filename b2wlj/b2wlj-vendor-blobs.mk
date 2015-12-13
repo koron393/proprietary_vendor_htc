@@ -186,12 +186,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/htc/b2wlj/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/b2wlj/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \

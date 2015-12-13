@@ -265,6 +265,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \

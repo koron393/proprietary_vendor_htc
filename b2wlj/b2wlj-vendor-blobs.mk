@@ -70,8 +70,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:/system/vendor/lib/libchromatix_imx214_hfr_60fps.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_preview.so:/system/vendor/lib/libchromatix_imx214_preview.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_zoe.so:/system/vendor/lib/libchromatix_imx214_zoe.so \
+        vendor/htc/b2wlj/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
-        vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/b2wlj/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
         vendor/htc/b2wlj/proprietary/lib/libc2dcolorconvertgpu.so:/system/lib/libc2dcolorconvertgpu.so \
@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
@@ -266,23 +267,21 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/b2wlj/proprietary/app/CIRModule.apk:/system/app/CIRModule.apk \
-        vendor/htc/b2wlj/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/b2wlj/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
         vendor/htc/b2wlj/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
-        vendor/htc/b2wlj/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
+        vendor/htc/b2wlj/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/b2wlj/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
-        vendor/htc/b2wlj/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcsecure.so:/system/lib/libhtcsecure.so \
         vendor/htc/b2wlj/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_hdr.so:/system/vendor/lib/libchromatix_s5k5e_hdr.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
@@ -309,7 +308,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \

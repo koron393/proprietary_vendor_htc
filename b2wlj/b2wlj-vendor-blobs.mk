@@ -233,7 +233,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/b2wlj/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/b2wlj/proprietary/bin/time_daemon:/system/bin/time_daemon \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libtime_genoff.so:/system/vendor/lib/libtime_genoff.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \

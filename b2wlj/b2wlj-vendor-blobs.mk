@@ -278,7 +278,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
-        vendor/htc/b2wlj/proprietary/app/CIRModule.apk:/system/app/CIRModule.apk \
         vendor/htc/b2wlj/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
         vendor/htc/b2wlj/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \

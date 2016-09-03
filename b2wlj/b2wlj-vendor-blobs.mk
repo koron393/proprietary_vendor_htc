@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -191,6 +191,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
         vendor/htc/b2wlj/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \

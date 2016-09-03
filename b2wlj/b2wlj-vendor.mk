@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
     CIRModule \
     EasyAccessService \
-    htcirlibs \
     libtime_genoff
 
 $(call inherit-product, vendor/htc/b2wlj/b2wlj-vendor-blobs.mk)

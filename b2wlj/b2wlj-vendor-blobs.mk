@@ -246,6 +246,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
+        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b01:/system/etc/firmware/dxhdcp2.b01 \
+        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b02:/system/etc/firmware/dxhdcp2.b02 \
+        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b03:/system/etc/firmware/dxhdcp2.b03 \
+        vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.mdt:/system/etc/firmware/dxhdcp2.mdt \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \

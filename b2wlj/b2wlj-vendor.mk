@@ -16,9 +16,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    EasyAccessService \
-    libtime_genoff \
     CIRModule \
-    htcirlibs
+    EasyAccessService \
+    htcirlibs \
+    libtime_genoff
 
 $(call inherit-product, vendor/htc/b2wlj/b2wlj-vendor-blobs.mk)

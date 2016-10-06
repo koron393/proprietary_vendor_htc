@@ -185,15 +185,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
-        vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-        vendor/htc/b2wlj/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
-        vendor/htc/b2wlj/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
-        vendor/htc/b2wlj/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
-        vendor/htc/b2wlj/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libloc_api_v02.so:/system/vendor/lib/libloc_api_v02.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b01:/system/etc/firmware/venus.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
         vendor/htc/b2wlj/proprietary/etc/firmware/venus.b03:/system/etc/firmware/venus.b03 \
@@ -279,7 +272,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/b2wlj/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/b2wlj/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
-        vendor/htc/b2wlj/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/b2wlj/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
         vendor/htc/b2wlj/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \

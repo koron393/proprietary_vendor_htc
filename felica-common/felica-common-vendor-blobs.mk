@@ -31,4 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/felica-common/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
     vendor/htc/felica-common/proprietary/etc/felica/ana.png:system/etc/felica/ana.png \
     vendor/htc/felica-common/proprietary/etc/felica/jre.PNG:system/etc/felica/jre.PNG \
-    vendor/htc/felica-common/proprietary/etc/felica/toku.png:system/etc/felica/toku.png
+    vendor/htc/felica-common/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
+    vendor/htc/felica-common/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/htc/felica-common/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
+    vendor/htc/felica-common/proprietary/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+    vendor/htc/felica-common/proprietary/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+    vendor/htc/felica-common/proprietary/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so

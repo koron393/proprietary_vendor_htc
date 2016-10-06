@@ -14,6 +14,7 @@
 
 PRODUCT_PACKAGES += \
     KDDI_Felicalock \
+    SmartcardService \
     MobileFeliCaClient \
     MobileFeliCaMenuApp \
     MobileFeliCaSettingApp \

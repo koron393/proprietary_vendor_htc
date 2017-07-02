@@ -936,4 +936,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    ims
+    ims \
+    imssettings
